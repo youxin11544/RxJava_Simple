@@ -4,15 +4,74 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.asdf.myapplication3.MainActivity">
+    android:orientation="vertical">
+
     <TextView
-        android:gravity="center"
         android:id="@+id/youixn"
         android:layout_width="match_parent"
         android:layout_height="45dp"
+        android:background="#cccccc"
+        android:gravity="center"
         android:text="测试打不死的小强" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:onClick="create"
+        android:text="Observable的创建(“被观察者”或“可观察对象”),通过Observable.create的方法"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:onClick="createSubscriber"
+        android:text="Subscriber的创建(“订阅者”，也是接收源),直接new" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:onClick="SubscriptionSubscriber"
+        android:padding="4dp"
+        android:text="Subscription ：Observable调用subscribe( )方法返回的对象，同样有unsubscribe( )方法，可以用来取消订阅事件" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc"
+        android:gravity="center"
+
+        android:padding="4dp"
+        android:text="Action0：RxJava中的一个接口，它只有一个无参call（）方法，且无返回值，同样还有Action1，Action2...Action9等，Action1封装了含有 1 个参的call（）方法，即call（T t）
+        ，Action2封装了含有 2 个参数的call方法，即call（T1 t1，T2 t2），以此类推" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc"
+        android:gravity="center"
+
+        android:padding="4dp"
+        android:text="Func0：与Action0非常相似，也有call（）方法，
+        但是它是有返回值的，同样也有Func0、Func1...Func9;" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:onClick="toOperators"
+        android:padding="4dp"
+        android:text="简化代码（Observable与Subscriber） 使用操作符Operators" />
 </LinearLayout>

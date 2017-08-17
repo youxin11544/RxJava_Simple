@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.asdf.myapplication3.OperatorsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:onClick="just"
+        android:padding="4dp"
+        android:text="使用just( )，将为你创建一个Observable并自动为你调用onNext( )发射数据" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:onClick="from"
+        android:padding="4dp"
+        android:text="使用from( )，遍历集合，发送每个item：" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:onClick="defer"
+        android:padding="4dp"
+        android:text="使用defer( )，有观察者订阅时才创建Observable，并且为每个观察者创建一个新的Observable：" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:onClick="filter"
+        android:padding="4dp"
+        android:text="retry" />
+
+
+
+</LinearLayout>

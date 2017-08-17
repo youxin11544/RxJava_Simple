@@ -12,6 +12,60 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_0d2e973fb4347d4b7b5eaf234bcd4d5d178db034.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.1_08b3f9bcda52ea3f52ba5b2d84006fa2b41505cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.8\f9dbae366a6a3d6b5041c5e8db0dcdfdc35c27b5\rxjava-1.1.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f9dbae366a6a3d6b5041c5e8db0dcdfdc35c27b5">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\rxjava-1.1.8_292ae3995d1eed9d8e95f69ea1728f88ec6efa5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.2.1_37cb1975625f28a469e494b25f5f5cab8ddc4856.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_5ea4eae89b564a6aca23dcbc5c628344369d482b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_8cebf33b295d38734a6b349c0818a72aa3c14d3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -30,12 +84,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_0d2e973fb4347d4b7b5eaf234bcd4d5d178db034.jar" />
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_b8a298f0518fad5a23e277e7bcf1cc5d448765ac.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,6 +102,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_a63326056081d0e8e988218e7258bd086877d369.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -57,30 +120,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_5ea4eae89b564a6aca23dcbc5c628344369d482b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Android_studio\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
         <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_be74755e85f4db5cf7bd59ecb1c7b68e4db47871.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_8cebf33b295d38734a6b349c0818a72aa3c14d3c.jar" />
     </item>
     <item
         is-multidex="false"
