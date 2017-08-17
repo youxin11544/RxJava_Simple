@@ -14,6 +14,7 @@ import rx.Subscriber;
 import rx.functions.Action1;
 import rx.functions.Func0;
 import rx.functions.Func1;
+import rx.schedulers.Schedulers;
 
 public class OperatorsActivity extends AppCompatActivity {
     private String TAG = "OperatorsActivity";
@@ -218,6 +219,39 @@ public class OperatorsActivity extends AppCompatActivity {
                         Log.e(TAG,integer+"");
                     }
                 });
+    }
+
+    public void all(View view) {
+        Observable.just(1, 3)
+                .all(new Func1<Integer, Boolean>() {
+                    @Override
+                    public Boolean call(Integer integer) {
+                        return integer>2;
+                    }
+                })
+                .subscribe(new Action1<Boolean>() {
+                    @Override
+                    public void call(Boolean aBoolean) {
+
+                    }
+                });
+    }
+
+    public void forEach(View v) {
+        Observable.just(2,3)
+                  .observeOn(Schedulers.newThread())
+                  .toBlocking()
+                  .forEach(new Action1<Integer>() {
+                      @Override
+                      public void call(Integer integer) {
+                          Log.d(TAG,integer.toString()+" "+Thread.currentThread().getName());
+                          try {
+                              Thread.sleep(3000);
+                          } catch (InterruptedException e) {
+                              e.printStackTrace();
+                          }
+                      }
+                  });
     }
 
 }

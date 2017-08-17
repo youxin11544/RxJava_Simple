@@ -42,9 +42,9 @@
         android:layout_marginTop="5dp"
         android:background="#cccccc"
         android:gravity="center"
-        android:onClick="takeFirst"
+        android:onClick="forEach"
         android:padding="4dp"
-        android:text="retry" />
+        android:text="forEach" />
 
 
 
