@@ -42,7 +42,7 @@
         android:layout_marginTop="5dp"
         android:background="#cccccc"
         android:gravity="center"
-        android:onClick="filter"
+        android:onClick="takeFirst"
         android:padding="4dp"
         android:text="retry" />
 

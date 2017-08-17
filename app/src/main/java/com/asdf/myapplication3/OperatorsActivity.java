@@ -90,6 +90,7 @@ public class OperatorsActivity extends AppCompatActivity {
         });
     }
 
+    // 写到这里 基本就恍然大悟就 rxjava 就是三个类 两个接口 。 没想象的那么复杂，看几个操作符的源码就知道整个套路都是一样的
     private void rang(View view) {
         //Action0：RxJava中的一个接口
         Observable.range(2, 5).subscribe(new Action1<Integer>() {
@@ -199,6 +200,22 @@ public class OperatorsActivity extends AppCompatActivity {
                     @Override
                     public void call(Integer s) {
                         Log.e(TAG,s+"");
+                    }
+                });
+    }
+
+    public void takeFirst(View view) {
+        Observable.just(1,3,15)
+                .takeFirst(new Func1<Integer, Boolean>() {
+                    @Override
+                    public Boolean call(Integer integer) {
+                        return integer>2;
+                    }
+                })
+                .subscribe(new Action1<Integer>() {
+                    @Override
+                    public void call(Integer integer) {
+                        Log.e(TAG,integer+"");
                     }
                 });
     }
