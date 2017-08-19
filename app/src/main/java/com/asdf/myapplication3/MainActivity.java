@@ -174,7 +174,7 @@ public class MainActivity extends BaseActivity {
         }).subscribe(new SimpleCommonCallBack<TempBean>(mCompositeSubscription) {
             @Override
             public void onCallError(Exception e) {
-
+                Log.e("youxin","onCallError");
             }
 
             @Override
