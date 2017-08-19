@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import haibao.com.api.data.param.bookshelf.CreateEditPlayListParam;
+import haibao.com.api.data.param.bookshelf.PlayListOrderParam;
 import haibao.com.api.data.response.bookShelfResponse.PlayListBean;
 import haibao.com.api.data.response.bookShelfResponse.PlayListCoverResponse;
 import haibao.com.api.data.response.content.ContentCommentsResponse;
@@ -25,12 +26,14 @@ import haibao.com.api.data.response.global.Resource;
 import haibao.com.api.helper.MultipartBuilder;
 import haibao.com.api.service.BookshelfApiWrapper;
 import haibao.com.api.service.ContentApiApiWrapper;
+import haibao.com.utilscollection.io.AssetsUtils;
 import haibao.com.utilscollection.manager.ToastUtils;
 import me.shaohui.advancedluban.Luban;
 import okhttp3.MultipartBody;
 import rx.Observable;
 import rx.Subscription;
 import rx.functions.Func1;
+import rx.functions.Func2;
 import rx.functions.Func3;
 import rx.subscriptions.CompositeSubscription;
 
@@ -277,71 +280,138 @@ public class MainActivity extends BaseActivity {
     public void edit(View view) {
         final String playlist_id = "409";
         final String name = "youxin";
-        String photoPath = "/storage/emulated/0/ayb/image/1503122365538.jpg";
-        List<Resource> list = new ArrayList<>();
+        final String photoPath = "/storage/emulated/0/ayb/image/1503122365538.jpg";
+        PlayListBean rt = AssetsUtils.getBean("playlistbean.json", PlayListBean.class);
+        List<Resource> list = rt.resources;
+
+        Observable<PlayListBean> editObservable = editPhotoAndName(name, photoPath, playlist_id);
+        Observable<List<Resource>> orderObservable = setPlayListOrder(playlist_id, list);
         showLoadingDialog();
-        Subscription mSubscription = Observable.just(photoPath)
-                .concatMap(new Func1<String, Observable<File>>() {
+        Subscription mSubscription = Observable
+                .zip(editObservable, orderObservable, new Func2<PlayListBean, List<Resource>, TempBean>() {
                     @Override
-                    public Observable<File> call(String photoPath) {
-                        if (!TextUtils.isEmpty(photoPath)) {
-                            File file = new File(photoPath);
-                            if (!file.exists()) {
-                                ToastUtils.showShort("文件为空");
-                                hideLoadingDialog();
-                                return Observable.never();
-                            }
-                            Observable<File> fileObservable = Luban.compress(MainActivity.this, file)
-                                    .setMaxSize(500)
-                                    .putGear(Luban.CUSTOM_GEAR)
-                                    .asObservable();
-                            return fileObservable;
-                        } else {
-                            return Observable.just(new File(""));
-                        }
+                    public TempBean call(PlayListBean playListBean, List<Resource> resources) {
+                        TempBean bean = new TempBean();
+                        bean.data1 = playListBean;
+                        bean.data2 = resources;
+                        return bean;
                     }
                 })
+                .subscribe(new SimpleCommonCallBack<TempBean>(mCompositeSubscription) {
+                    @Override
+                    public void onCallError(Exception e) {
+                        hideLoadingDialog();
+                        Log.e("youxin2", e.toString());
+                    }
+                    @Override
+                    public void onCallNext(TempBean bean) {
+                        hideLoadingDialog();
+                        PlayListBean playListBean = (PlayListBean) bean.data1;
+                        ArrayList<Resource> resources = (ArrayList<Resource>) bean.data2;
+                        if (playListBean != null) {
+                            Log.e("youxin2", playListBean.toString());
+                        }
+                        if (resources != null) {
+                            Log.e("youxin3", resources.toString());
+                        }
+                    }
+
+                    @Override
+                    public void onCompleted() {
+                        Log.e("youxin4", "onCompleted");
+                    }
+                });
+        mCompositeSubscription.add(mSubscription);
+
+
+    }
+
+
+    public Observable<PlayListBean> editPhotoAndName(final String name, String photoPath, final String playlist_id) {
+        return Observable.just(photoPath)
+                .concatMap(new Func1<String, Observable<String>>() {
+                    @Override
+                    public Observable<String> call(String photoPath) {
+                        //压缩图片 上传图片
+                        return compressAndUpdateImage(photoPath);
+                    }
+                })
+                .concatMap(new Func1<String, Observable<PlayListBean>>() {
+                    @Override
+                    public Observable<PlayListBean> call(String cover) {
+                        //编辑 信息
+                        return eidtInfo(name, cover, playlist_id);
+                    }
+                });
+    }
+
+    //压缩并上传图片
+    public Observable<String> compressAndUpdateImage(String photoPath) {
+        if (TextUtils.isEmpty(photoPath)) {
+            return Observable.just("");
+        }
+        File file = new File(photoPath);
+        if (!file.exists()) {
+            ToastUtils.showShort("文件为空");
+            hideLoadingDialog();
+            return Observable.empty();
+        }
+        Observable<String> fileObservable = Luban.compress(MainActivity.this, file)
+                .setMaxSize(500)
+                .putGear(Luban.CUSTOM_GEAR)
+                .asObservable()
                 .concatMap(new Func1<File, Observable<PlayListCoverResponse>>() {
                     @Override
                     public Observable<PlayListCoverResponse> call(File file) {
-                        if (!file.exists()) {
-                            return Observable.just(new PlayListCoverResponse());
-                        }
                         List<File> mFileList = new ArrayList<>();
                         mFileList.add(file);
                         MultipartBody body = MultipartBuilder.getInstance().filesToMultipartBody(mFileList);
                         return BookshelfApiWrapper.getInstance().updataPlaylistCover(body);
                     }
                 })
-                .concatMap(new Func1<PlayListCoverResponse, Observable<PlayListBean>>() {
+                .map(new Func1<PlayListCoverResponse, String>() {
                     @Override
-                    public Observable<PlayListBean> call(PlayListCoverResponse playListCoverResponse) {
-                        CreateEditPlayListParam param = new CreateEditPlayListParam();
-                        if (!TextUtils.isEmpty(name)) {
-                            param.playlist_name = name;
-                        }
-                        if (playListCoverResponse != null && !TextUtils.isEmpty(playListCoverResponse.cover)) {
-                            param.playlist_cover = playListCoverResponse.cover;
-                        }
-                        return BookshelfApiWrapper.getInstance().editPlayList(playlist_id, param);
-                    }
-                })
-                .subscribe(new SimpleCommonCallBack<PlayListBean>(mCompositeSubscription) {
-                    @Override
-                    public void onCallError(Exception e) {
-                        hideLoadingDialog();
-                        Log.e("youxin2", e.toString());
-                    }
-
-                    @Override
-                    public void onCallNext(PlayListBean playListBean) {
-                        hideLoadingDialog();
-                        Log.e("youxin2", playListBean.toString());
+                    public String call(PlayListCoverResponse playListCoverResponse) {
+                        return playListCoverResponse.cover;
                     }
                 });
+        return fileObservable;
     }
 
+    public Observable<PlayListBean> eidtInfo(String name, String cover, String playlist_id) {
+        CreateEditPlayListParam param = new CreateEditPlayListParam();
+        boolean flag1 = true;
+        boolean flag2 = true;
+        if (!TextUtils.isEmpty(name)) {
+            param.playlist_name = name;
+            flag1 = false;
+        }
+        if (cover != null && !TextUtils.isEmpty(cover)) {
+            param.playlist_cover = cover;
+            flag2 = false;
+        }
+        if (flag1 && flag2) {
+            return Observable.empty();
+        }
+        return BookshelfApiWrapper.getInstance().editPlayList(playlist_id, param);
+    }
 
+    private Observable<List<Resource>> setPlayListOrder(String playlist_id, List<Resource> list) {
+        if (list == null || list.size() == 0) {
+            return Observable.empty();
+        }
+        ArrayList<PlayListOrderParam> paramList = new ArrayList<>();
+        for (int i = 0; i < list.size(); i++) {
+            Resource mResource = list.get(i);
+            PlayListOrderParam param = new PlayListOrderParam();
+            param.resource_id = mResource.getResource_id();
+            param.order_num = i;
+            paramList.add(param);
+        }
+        return BookshelfApiWrapper
+                .getInstance()
+                .setPlayListOrder(playlist_id, paramList);
+    }
 
 
 }

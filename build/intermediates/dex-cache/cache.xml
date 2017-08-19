@@ -12,42 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\MyApplication32\luban\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="90f78d0cee616650b0e12c94b1ba89d7b9d93c5a">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\MyApplication32-luban-unspecified_139eef5e9255a0df40e9529ada6c714cc2f1c776.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_0d2e973fb4347d4b7b5eaf234bcd4d5d178db034.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="7052283359001bb108753cb0583a887d3bf94c82">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\okhttp-3.1.2_df8be8f3d92fa619ccf539d98de4049254089836.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\MyApplication32\utilscollection\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ef1ccb0254df9af3bf90f7eb10f547d4aa9c2fa7">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\MyApplication32-utilscollection-unspecified_bdb123347c4a6af7c8dc23be0bfd5ef1365b497c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -57,66 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_76ba63c4f2b55d2bb2b1d69d2b9fe6d75e78a926.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_b8a298f0518fad5a23e277e7bcf1cc5d448765ac.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.1.2\a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0\logging-interceptor-3.1.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0">
         <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.1.2_30b270bb378363c5ded28421fff9202428fed071.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_a809a154ff86725fb0cedb007b943347fe880694.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.0-beta3\b2c9a66010be6540ee42c033de4ae43085dc7856\adapter-rxjava-2.0.0-beta3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="b2c9a66010be6540ee42c033de4ae43085dc7856">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.0.0-beta3_14ef86836a5d2ecac99687ecde9867d3197db977.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_a63326056081d0e8e988218e7258bd086877d369.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.github.zhaokaiqiang.klog\library\1.6.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="beb952d2afcbaa163aecd988a37d1e6fcf478b3a">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.github.zhaokaiqiang.klog-library-1.6.0_81df92c83155de160e390b8eb22ec2df29ddc695.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,48 +75,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.8\f9dbae366a6a3d6b5041c5e8db0dcdfdc35c27b5\rxjava-1.1.8.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="f9dbae366a6a3d6b5041c5e8db0dcdfdc35c27b5">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\rxjava-1.1.8_292ae3995d1eed9d8e95f69ea1728f88ec6efa5c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.2.1_37cb1975625f28a469e494b25f5f5cab8ddc4856.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_5ea4eae89b564a6aca23dcbc5c628344369d482b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
         <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_8cebf33b295d38734a6b349c0818a72aa3c14d3c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\MyApplication32\api\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="3d3109b0a18f1de803ee48e0f55649a37f76e1b0">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\MyApplication32-api-unspecified_ecf27dcb062f2f1d3f3ec2c8bf0e9f950d98fe5e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -234,6 +108,132 @@
         revision="25.0.3"
         sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
         <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_c22cf24401adde1218bf903cba99d77600da4c01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\MyApplication32\luban\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="90f78d0cee616650b0e12c94b1ba89d7b9d93c5a">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\MyApplication32-luban-unspecified_139eef5e9255a0df40e9529ada6c714cc2f1c776.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_0d2e973fb4347d4b7b5eaf234bcd4d5d178db034.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\okhttp-3.1.2_df8be8f3d92fa619ccf539d98de4049254089836.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\MyApplication32\utilscollection\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ef1ccb0254df9af3bf90f7eb10f547d4aa9c2fa7">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\MyApplication32-utilscollection-unspecified_bdb123347c4a6af7c8dc23be0bfd5ef1365b497c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_76ba63c4f2b55d2bb2b1d69d2b9fe6d75e78a926.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_b8a298f0518fad5a23e277e7bcf1cc5d448765ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_a809a154ff86725fb0cedb007b943347fe880694.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.0-beta3\b2c9a66010be6540ee42c033de4ae43085dc7856\adapter-rxjava-2.0.0-beta3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b2c9a66010be6540ee42c033de4ae43085dc7856">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.0.0-beta3_14ef86836a5d2ecac99687ecde9867d3197db977.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_a63326056081d0e8e988218e7258bd086877d369.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.github.zhaokaiqiang.klog\library\1.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="beb952d2afcbaa163aecd988a37d1e6fcf478b3a">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.github.zhaokaiqiang.klog-library-1.6.0_81df92c83155de160e390b8eb22ec2df29ddc695.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.8\f9dbae366a6a3d6b5041c5e8db0dcdfdc35c27b5\rxjava-1.1.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f9dbae366a6a3d6b5041c5e8db0dcdfdc35c27b5">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\rxjava-1.1.8_292ae3995d1eed9d8e95f69ea1728f88ec6efa5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.2.1_37cb1975625f28a469e494b25f5f5cab8ddc4856.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_5ea4eae89b564a6aca23dcbc5c628344369d482b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\MyApplication32\api\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6192384c9c3c3cc94e26592c0120a934b7f0f632">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\MyApplication32-api-unspecified_ecf27dcb062f2f1d3f3ec2c8bf0e9f950d98fe5e.jar" />
     </item>
 
 </items>

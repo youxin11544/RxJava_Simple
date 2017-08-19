@@ -11,4 +11,5 @@ public class TempBean implements Serializable {
     public Object data2;
     public Object data3;
     public Object data4;
+
 }

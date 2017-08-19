@@ -1,0 +1,140 @@
+{
+  "playlist_id": "409",
+  "playlist_name": "youxin",
+  "playlist_cover": "https://osstest.baobaobooks.net/bookshelf/playlists/cover/201708/150313080051084.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp",
+  "resource_count": 12,
+  "resources": [
+    {
+      "resource_id": 5243,
+      "resource_name": "1 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "audio_lyric": "",
+      "is_visible": 0,
+      "duration": "03:31",
+      "isbn_id": "243",
+      "order_num": "0"
+    },
+    {
+      "resource_id": 5253,
+      "resource_name": "11 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "audio_lyric": "",
+      "is_visible": 0,
+      "duration": "03:25",
+      "isbn_id": "243",
+      "order_num": "0"
+    },
+    {
+      "resource_id": 5252,
+      "resource_name": "10 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "audio_lyric": "",
+      "is_visible": 0,
+      "duration": "05:05",
+      "isbn_id": "243",
+      "order_num": "0"
+    },
+    {
+      "resource_id": 5251,
+      "resource_name": "9 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "audio_lyric": "",
+      "is_visible": 0,
+      "duration": "05:28",
+      "isbn_id": "243",
+      "order_num": "0"
+    },
+    {
+      "resource_id": 5250,
+      "resource_name": "8 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "audio_lyric": "",
+      "is_visible": 0,
+      "duration": "05:19",
+      "isbn_id": "243",
+      "order_num": "0"
+    },
+    {
+      "resource_id": 5249,
+      "resource_name": "7 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "audio_lyric": "",
+      "is_visible": 0,
+      "duration": "03:32",
+      "isbn_id": "243",
+      "order_num": "0"
+    },
+    {
+      "resource_id": 5248,
+      "resource_name": "6 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "audio_lyric": "",
+      "is_visible": 0,
+      "duration": "03:26",
+      "isbn_id": "243",
+      "order_num": "0"
+    },
+    {
+      "resource_id": 5247,
+      "resource_name": "5 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "audio_lyric": "",
+      "is_visible": 0,
+      "duration": "03:25",
+      "isbn_id": "243",
+      "order_num": "0"
+    },
+    {
+      "resource_id": 5246,
+      "resource_name": "4 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "audio_lyric": "",
+      "is_visible": 0,
+      "duration": "05:05",
+      "isbn_id": "243",
+      "order_num": "0"
+    },
+    {
+      "resource_id": 5245,
+      "resource_name": "3 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "audio_lyric": "",
+      "is_visible": 0,
+      "duration": "05:28",
+      "isbn_id": "243",
+      "order_num": "0"
+    },
+    {
+      "resource_id": 5244,
+      "resource_name": "2 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "audio_lyric": "",
+      "is_visible": 0,
+      "duration": "05:20",
+      "isbn_id": "243",
+      "order_num": "0"
+    },
+    {
+      "resource_id": 5254,
+      "resource_name": "12 The Mixed-up Chameleon",
+      "resource_cover": "https://oss.baobaobooks.net/images/goods/covers/1470910305464960937.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp",
+      "audio_url": "",
+      "au08-19 16:24:26.902 14139-30794/com.haibao D/OkHttp: dio_lyric": "",
+      "is_visible": 0,
+      "duration": "03:23",
+      "isbn_id": "243",
+      "order_num": "0"
+    }
+  ]
+}

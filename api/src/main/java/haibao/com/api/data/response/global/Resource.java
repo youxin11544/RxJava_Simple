@@ -171,4 +171,27 @@ public class Resource implements Serializable {
     public int hashCode() {
         return resource_id;
     }
+
+    @Override
+    public String toString() {
+        return "Resource{" +
+                "isSelected=" + isSelected +
+                ", isPlay=" + isPlay +
+                ", is_visible=" + is_visible +
+                ", resource_id=" + resource_id +
+                ", resource_type=" + resource_type +
+                ", duration='" + duration + '\'' +
+                ", audio_lyric='" + audio_lyric + '\'' +
+                ", audio_url='" + audio_url + '\'' +
+                ", resource_cover='" + resource_cover + '\'' +
+                ", resource_name='" + resource_name + '\'' +
+                ", share_url='" + share_url + '\'' +
+                ", vid='" + vid + '\'' +
+                ", f10='" + f10 + '\'' +
+                ", f20='" + f20 + '\'' +
+                ", f30='" + f30 + '\'' +
+                ", order_num=" + order_num +
+                ", isbn_id=" + isbn_id +
+                '}';
+    }
 }
