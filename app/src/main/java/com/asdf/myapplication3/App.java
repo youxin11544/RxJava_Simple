@@ -2,6 +2,9 @@ package com.asdf.myapplication3;
 
 import android.app.Application;
 
+import haibao.com.api.Http;
+import haibao.com.utilscollection.UtilsCollection;
+
 /**
  * Created by wanjian on 2017/2/14.
  *
@@ -13,7 +16,8 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
+        UtilsCollection.core = this;
+        Http.initialize(this,"1.0.0");
 //        Cockroach.install(new Cockroach.ExceptionHandler() {
 //           // handlerException内部建议手动try{  你的异常处理逻辑  }catch(Throwable e){ }
 //           // ，以防handlerException内部再次抛出异常，导致循环调用handlerException

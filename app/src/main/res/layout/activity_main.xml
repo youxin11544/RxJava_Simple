@@ -74,4 +74,15 @@
         android:onClick="toOperators"
         android:padding="4dp"
         android:text="简化代码（Observable与Subscriber） 使用操作符Operators" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:onClick="edit"
+        android:padding="4dp"
+        android:text="edit" />
 </LinearLayout>

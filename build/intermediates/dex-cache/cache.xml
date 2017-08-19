@@ -12,12 +12,147 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\MyApplication32\luban\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="90f78d0cee616650b0e12c94b1ba89d7b9d93c5a">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\MyApplication32-luban-unspecified_139eef5e9255a0df40e9529ada6c714cc2f1c776.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
         <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_0d2e973fb4347d4b7b5eaf234bcd4d5d178db034.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\okhttp-3.1.2_df8be8f3d92fa619ccf539d98de4049254089836.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\MyApplication32\utilscollection\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ef1ccb0254df9af3bf90f7eb10f547d4aa9c2fa7">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\MyApplication32-utilscollection-unspecified_bdb123347c4a6af7c8dc23be0bfd5ef1365b497c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_d4da087e59a8ae574d2ced8d0c881e643dfd9b99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_76ba63c4f2b55d2bb2b1d69d2b9fe6d75e78a926.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_b8a298f0518fad5a23e277e7bcf1cc5d448765ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.1.2\a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0\logging-interceptor-3.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.1.2_30b270bb378363c5ded28421fff9202428fed071.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_a809a154ff86725fb0cedb007b943347fe880694.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.0-beta3\b2c9a66010be6540ee42c033de4ae43085dc7856\adapter-rxjava-2.0.0-beta3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b2c9a66010be6540ee42c033de4ae43085dc7856">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.0.0-beta3_14ef86836a5d2ecac99687ecde9867d3197db977.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_a63326056081d0e8e988218e7258bd086877d369.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.github.zhaokaiqiang.klog\library\1.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="beb952d2afcbaa163aecd988a37d1e6fcf478b3a">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.github.zhaokaiqiang.klog-library-1.6.0_81df92c83155de160e390b8eb22ec2df29ddc695.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android_studio\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_be74755e85f4db5cf7bd59ecb1c7b68e4db47871.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\okio-1.6.0_c410569bd3ae660f2a7eceb3af69efc833b46b70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta3\8bff75d7360aaa3866f1e6949c877dfcc2b3d3e2\converter-gson-2.0.0-beta3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8bff75d7360aaa3866f1e6949c877dfcc2b3d3e2">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.0-beta3_e0d8b6678b82084c712e4f124936e3dac0ffea35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta3\97675641051febfee098903cc0eff62f2826e34e\retrofit-2.0.0-beta3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="97675641051febfee098903cc0eff62f2826e34e">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta3_be8e6a7310d78a8e5e5fd140e6fe49d59dc485fe.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,48 +201,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\MyApplication32\api\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_d4da087e59a8ae574d2ced8d0c881e643dfd9b99.jar" />
+        sha1="3d3109b0a18f1de803ee48e0f55649a37f76e1b0">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\MyApplication32-api-unspecified_ecf27dcb062f2f1d3f3ec2c8bf0e9f950d98fe5e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_76ba63c4f2b55d2bb2b1d69d2b9fe6d75e78a926.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_b8a298f0518fad5a23e277e7bcf1cc5d448765ac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_a809a154ff86725fb0cedb007b943347fe880694.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\workplace\MyApplication32\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_a63326056081d0e8e988218e7258bd086877d369.jar" />
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -117,15 +225,6 @@
         revision="25.0.3"
         sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
         <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_ba0511a745ae061c9a836867cd6e615c7507023a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Android_studio\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\workplace\MyApplication32\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_be74755e85f4db5cf7bd59ecb1c7b68e4db47871.jar" />
     </item>
     <item
         is-multidex="false"
