@@ -389,6 +389,7 @@ public class MainActivity extends BaseActivity {
         if (cover != null && !TextUtils.isEmpty(cover)) {
             param.playlist_cover = cover;
             flag2 = false;
+
         }
         if (flag1 && flag2) {
             return Observable.empty();
